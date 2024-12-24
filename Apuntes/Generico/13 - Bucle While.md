@@ -1,5 +1,5 @@
 
-Se engloba el bucle dentro de while. Se usa break para cerrar y continue para reiniciar.
+Se engloba el bucle dentro de ***while***. Se usa ***break*** para cerrar y ***continue*** para reiniciar.
 
 Ejemplo con [[9 - Condicional if]] y [[12 - Sentencias try except y finally para manejar excepciones]]
 
