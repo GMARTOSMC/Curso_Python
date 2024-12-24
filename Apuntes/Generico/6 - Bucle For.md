@@ -32,4 +32,18 @@ print(larguest)
 
 De esa forma se comparan todos con larguest, y cuando es más grande se asigna, si no no pasa nada, por tanto al final queda larguest = al mas grande.
 
+También podemos usar el bucle for con un rango. Por ejemplo:
+
+```python
+for number in range (1,5):
+	print(number)
+```
+
+La variable ***number*** recorre todo el rango de 1 a 4 y devolverá 1, 2, 3 y 4. Hay que tener en cuenta que ***range*** NO incluye el límite superior. Por eso es de 1 a 4.
+
+
+
+
+
+
 

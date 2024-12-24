@@ -43,21 +43,6 @@ Resto:
 
 Da 1 porque la división entre 10 y 3 da de resto 1
 
-Asignación:
-
-Por ejemplo:
-
-```python
-paco = 1
-
-paco += 1
-
-print(paco)
-```
-
-Dará 2. Esto es útil para manipular valores en base a su valor anterior.
-
-También puedes restar, multiplicar, dividir. Es solo cambiar + por el operador que sea.
 
 
 
