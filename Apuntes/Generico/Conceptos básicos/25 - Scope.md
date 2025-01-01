@@ -1,0 +1,2 @@
+
+El scope define el alcance de una variable, función, etc. Por ejemplo, con variables, una variable fuera de una función es una ***variable global*** que funciona en todo el código. Pero una variable dentro de una función es una ***variable local*** que solo funciona dentro de la función.
