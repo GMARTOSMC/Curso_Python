@@ -1,25 +1,3 @@
-
-Las funciones son bloques de código que te permiten reutilizarlo. 
-
-Las funciones van seguidas de paréntesis y dentro de los paréntesis van los parámetros de ser necesarios.
-
-Podemos crear funciones con las palabra reservada def:
-
-
-```python
-def mi_funcion():
-	print("Hola)
-	print("Adios)
-```
-
-Lo que va en la indentación será la función. Para salir simplemente salimos de la indentación.
-
-Los parámetros van con las definiciones, los argumentos con las llamadas.
-
-Para llamar la función anterior sería el nombre de la función y paréntesis, con los argumentos de ser necesarios:
-
-
-```python
 mi_funcion()
 ```
 
@@ -56,14 +34,28 @@ llamada = media(5,7,9)
 ```
 
 
+Explicación sencilla de parámetro y argumento:
+
+![[parametros_argumentos.png]]
 
 
 
+Podemos especificar la clave en el argumento al llamar a la función para que, aunque cambiemos el orden, se llamen correctamente. Ejemplo:
 
+```python
+def nombre_direccion(name,location):  
+    print(f"Hello, {name}")  
+    print(f"What is it like in {location}")  
+  
+nombre_direccion(location = "Cartagena", name = "Gonzalo")
 
+# Devuelve
 
+Hello, Gonzalo
+What is it like in Cartagena
+```
 
-
+En el ejemplo hemos invertido los argumentos, pero como especificamos la clave en el argumento al llamarla, funciona igual.
 
 
 
