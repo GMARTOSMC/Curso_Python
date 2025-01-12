@@ -22,15 +22,14 @@ class Personaje:
 
 # Instanciación de un objeto de la calse Personaje
 heroe = Personaje("Ivespino", "Guerrero", 10, 100, 50 )
-
 # Uso de los métodos del objeto
+print(type(heroe))
 print(heroe.atacar("Orco"))
 print(heroe.curar(20))
 
 # Como los atributos no están encapsulados es fácil acceder a ellos
 
-print(heroe.nombre)
-
+print(heroe.clase)
 # Creamos clase con atributos privados
 
 class Personaje2:

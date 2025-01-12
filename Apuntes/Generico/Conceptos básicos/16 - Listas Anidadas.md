@@ -13,3 +13,11 @@ Para seleccionar elementos de la lista, primero seleccionamos de que lista y lue
 ```python
 print(frutas_y_verduras[1][1])
 ```
+
+
+También si están sin declarar:
+
+```python
+nested_list = ["A", "B", ["C", "D"]]  
+print(nested_list[2][1])
+```
